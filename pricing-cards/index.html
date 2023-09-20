@@ -3,90 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <title>Pricing Cards</title>
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      @media (min-width: 800px) {
+        .container {
+          width: 800px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div
-      class="container bg-light min-vh-100 d-flex gap-3 justify-content-center align-items-center"
-    >
-      <!-- Card -->
-      <div
-        class="card border-0 text-bg-light shadow-lg p-4 rounded-4"
-        style="width: 300px"
-      >
-        <h4 class="fw-bold">Free</h4>
-        <span class="lead fs-6 mb-3 fw-semibold">For Freelancer</span>
-
-        <h1 class="fw-bolder fs-4 mb-4">0$</h1>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">Single User</strong>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <!-- Card 1 -->
+          <div class="card rounded-4 shadow-lg border-0 mb-5">
+            <div class="card-body">
+              <h4 class="fw-bold">Free</h4>
+              <p class="text-muted">For Freelancers</p>
+              <h2 class="fs-1 fw-bold mt-4 mb-5">0$</h2>
+              <ul class="list-group-flush list-group fs-5 mb-5 vstack gap-1">
+                <li class="list-group-item border-0">
+                  <i class="bi bi-check2"></i> Single User
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="bi bi-check2"></i> 10 Downloads Per Month
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="bi bi-check2"></i> Faster Files
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="bi bi-check2"></i> 25 Custum Packs
+                </li>
+              </ul>
+              <div class="d-grid">
+                <button class="btn btn-dark rounded-4 mt-5 mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">10 Downloads Per Month</strong>
+        <div class="col-md-6">
+          <!-- Card 2 -->
+          <div class="card rounded-4 shadow-lg border-0 mb-5 text-bg-dark">
+            <div class="card-body">
+              <h4 class="fw-bold">Pro</h4>
+              <p class="text-white">For Agencies</p>
+              <h2 class="fs-1 fw-bold mt-4 mb-5">100$</h2>
+              <ul class="list-group-flush list-group fs-5 mb-5 vstack gap-1">
+                <li class="list-group-item border-0 text-bg-dark">
+                  <i class="bi bi-check2"></i> Unlimited Users
+                </li>
+                <li class="list-group-item border-0 text-bg-dark">
+                  <i class="bi bi-check2"></i> Unlimited Downloads
+                </li>
+                <li class="list-group-item border-0 text-bg-dark">
+                  <i class="bi bi-check2"></i> Full Editable Files
+                </li>
+                <li class="list-group-item border-0 text-bg-dark">
+                  <i class="bi bi-check2"></i> 200+ Custom Packs
+                </li>
+              </ul>
+              <div class="d-grid">
+                <button class="btn btn-light rounded-4 mt-5 mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">Faster Files</strong>
-        </div>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">25 Custom Packs</strong>
-        </div>
-
-        <button class="btn btn-dark rounded-5 mt-4">Subscribe</button>
-      </div>
-
-      <!-- 2nd Card  -->
-
-      <div
-        class="card border-0 text-bg-dark shadow-lg p-4 rounded-4"
-        style="width: 300px"
-      >
-        <h4 class="fw-bold">Pro</h4>
-        <span class="lead fs-6 mb-3 fw-semibold">For Agencies</span>
-
-        <h1 class="fw-bolder fs-4 mb-4">100$</h1>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">Unlimited Users</strong>
-        </div>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">Unlimited Downloads</strong>
-        </div>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">Fully-Editable Files</strong>
-        </div>
-
-        <div class="d-flex justify-content-start align-items-center py-2">
-          <i class="fa-solid fa-check me-2"></i>
-          <strong class="lead">200+ Custom Packs</strong>
-        </div>
-
-        <button class="btn btn-light rounded-5 mt-4">Subscribe</button>
       </div>
     </div>
 
