@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Users List</title>
+
+    <style>
+      @media (max-width: 767px) {
+        .users-list {
+          justify-content: center !important;
+          margin-top: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="mb-5">
+      <div class="container mt-5">
+        <div class="d-flex justify-content-end">
+          <div class="btn-group btn-group-sm">
+            <div class="btn btn-secondary" data-bs-theme-value="dark">Dark</div>
+            <div class="btn btn-light" data-bs-theme-value="light">Light</div>
+          </div>
+        </div>
+
+        <h1 class="mb-4">Users</h1>
+
+        <div class="row">
+          <!-- Input Search -->
+          <div class="col-md-4">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              placeholder="Search Users"
+            />
+          </div>
+
+          <div
+            class="col-md-8 users-list d-flex justify-content-end align-items-center"
+          >
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Reputation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-bg-primary rounded-3"
+                  >New Users</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Editors</a>
+              </li>
+              <div class="nav-item">
+                <a href="#" class="nav-link">Moderators</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Users List  -->
+
+    <main>
+      <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/85.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/48.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/10.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/15.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/30.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/3.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="row">
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/45.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/28.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card mb-3"
+              data-bs-container="body"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-content="loremipsum@lorem.com"
+            >
+              <div class="card-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/40.jpg"
+                      class="img-fluid rounded-circle"
+                      alt=""
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Lorem Ipsum</h4>
+                    <h6>Lorem, Ipsum</h6>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Sports</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="darkmodetoggle.js"></script>
+
+    <script>
+      const popoverTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="popover"]'
+      )
+
+      console.log(popoverTriggerList)
+
+      const popoverList = [...popoverTriggerList].map((popoverTriggerEl) => {
+        new bootstrap.Popover(popoverTriggerEl)
+      })
+    </script>
+  </body>
+</html>
